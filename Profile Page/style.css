@@ -7,31 +7,35 @@ body {
 h1 {
   color: Black;
   text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  margin-top: 100px;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
+
 
 #Jordan1 {
   text-align: center;
+  margin:50px;
 }
 
-.BackroundBild {
-  width:1900px;
+.Profilepic {
+  margin:-230px;
 }
+
+
+
 
 
 
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: DodgerBlue;
+    background-color: black;
   }
 
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: darkgrey;
     width: 300px;
     margin: 10px;
     text-align: center;
