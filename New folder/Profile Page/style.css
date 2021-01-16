@@ -1,0 +1,109 @@
+
+
+body {
+  background-color: white;  /* Sets backroudn colour to white */
+}
+
+h1 {     /*Header1*/
+  color: Black;
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+
+
+#Jordan1 {  /*putting my text in centerform*/
+  text-align: center;
+  margin:50px;
+}
+
+.Profilepic {
+  margin:-230px;
+}
+
+
+
+
+
+
+  .flex-container { /* Making flex containers with options on them */
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+
+  .flex-container > div { /* Setting how big and long the boxes are gonna be */
+    background-color: darkgrey;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+  }
+
+.Grid {
+  display: flex;
+justify-content: center;
+}
+
+.Row1 {
+  margin:30px;
+}
+
+
+#Intro {
+  margin-right: ;
+}
+
+#Intro {
+  box-shadow:0 0 1px 2px darkgray;
+}
+
+#Intro {
+  background-color: darkgrey;
+}
+
+p {
+  font-family: serif;
+  font-size: 20px;
+}
+
+.Row2 {
+  margin:30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.Photos {
+box-shadow:0 0 1px 2px darkgray;
+border-radius: 20px;
+padding: 1rem;
+background-color: darkgray;
+}
+
+.MyPhotos {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin: -20px;
+}
+
+.fotografi {
+  height: 10rem;
+  width: 10rem;
+}
+
+@media all and (max-width:600px) {
+
+}
+
+@media all and (max-width:768px) {
+
+}
+
+@media all and (min-width:1200px){
+
+}
